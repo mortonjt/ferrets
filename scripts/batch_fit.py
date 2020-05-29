@@ -67,4 +67,4 @@ res =  fit.extract(permuted=True)
 # Save mdoel
 import pickle
 
-pickle.dump({'dat': dat, 'fit': fit, 'res': res}, open('fit.pickle', 'wb'))
+pickle.dump({'dat': dat, 'res': res, 'biom': tab}, open('../results/batch_results.pickle', 'wb'))
