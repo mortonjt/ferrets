@@ -106,4 +106,4 @@ res =  fit.extract(permuted=True)
 pickle.dump({'dat': dat, 'res': res,
              'microbes' : list(tab.columns),
              'samples' : list(tab.index)},
-            open(args.output_file, 'wb'))
+             open(args.output_file, 'wb'))
